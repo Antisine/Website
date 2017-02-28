@@ -2,8 +2,8 @@
 <html lang='en-us'>
     <head>
         <meta charset='utf-8'/>
-        <link rel="icon" href="https://cdn.rawgit.com/GreyballDevelopment/Website/master/Icons/Greyball.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/GreyballDevelopment/Website/master/Styles/main.css" type='text/css'>
+        <link rel="icon" href="https://cdn.rawgit.com/Antisine/Website/master/Icons/Antisine.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/Antisine/Website/master/Styles/main.css" type='text/css'/>
         <meta name="description" content="Greyball main page">
         <meta name="keywords" content="Development">
         <meta name="author" content="Joshua Merrill, Jacob Merrill">
