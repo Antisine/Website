@@ -1,0 +1,7 @@
+Game Name: Slope
+Description: Speed down a randomized slope. Avoid death for high score.
+Width: 900
+Height: 600
+Tags: 1 player, Ball, 3D, Running, Free, Unity3D, IDnet, WebGL, IDnet highscore, Not on Kong
+How to play: al-ar: Move
+WebGL Iframe link: http://media2.y8.com/y8-studio/unity_webgl_games/u53/Joll/slope_v13/?ratio_tolerant=true
