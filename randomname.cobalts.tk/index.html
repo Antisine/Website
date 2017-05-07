@@ -9,16 +9,16 @@
 		<link href="https://rawgit.com/CobaltsDev/Website/master/Icons/ic_person_outline_black_24px.ico" rel="icon">
     </head>
     <style>
+		@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300');
         body{
-            font-family: "Open Sans", Sans-Serif;
+            font-family: "Roboto Condensed", sans-serif;
             font-size: 12px;
-        }
-        span{
-            color:black;
-            background-color:white;
         }
         button{
             font-size: 25px;
+            color: #ffffff;
+            background-color: #311b92;
+            border-radius: 5px;
             color: white;
             background-color: #6464ff;
             border-radius: 25px;
@@ -29,20 +29,27 @@
         }
         button:hover{
             box-shadow: 1px 1px 3px #888888;
-            color:#6464ff;
-            background-color:white;
+            color:#000000;
+            background-color:#ffffff;
         }
         button:focus{
             box-shadow: 1px 1px 3px #888888;
-            color:#6464ff;
-            background-color:white;
+            color:#000000;
+            background-color:#ffffff;
         }
         #output{
-            font-family: "Open Sans";
+            font-family: "Roboto Condensed", sans-serif;
             font-size: 20px;
         }
 		#code{
 			font-size: 10px;
+		}
+		footer{
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 300px;
+			padding-left: 5px;
 		}
     </style>
     <body>
@@ -50,11 +57,13 @@
         <button id="NameGenerate" onclick="myFunction()"><i class="material-icons">person_add</i></button>
         <div id="output"><p><br></p></div>
 	<footer>
-        <span><i class="material-icons" id="code">code</i>License: <a href = "http://www.gnu.org/licenses/gpl-3.0.txt" rel="license">GNU GPL v3.0</a></span>
-        <p>This website is Material Design compliant. <a href="material.io">Learn More.</a></p>
+      	    <span><i class="material-icons" id="code">code</i>License: <a href = "http://www.gnu.org/licenses/gpl-3.0.txt" rel="license">GNU GPL v3.0</a></span>
+        <p>This website is Material Design compliant. <a href="https://material.io">Learn More.</a></p>
 	</footer>
         <script>
-            var names = ["Jazmine", "Kamora", "Yandell", "Aaliyah", "Belen", "Ruby", "Alex", "Anthony", "Jose", "Marissa", "Sidney", "La\'Darius", "Mariah", "Damian", "Juan", "Santiago", "Joseph", "Nicolas", "Octavio", "Whitney", "Leslie", "Brayden", "Paulina", "Aaleayh", "Alison", "Eddy", "Victor", "Jeremy"];
+            var names = ["Jazmine", "Kamora", "Yandell", "Aaliyah", "Belen", "Ruby", "Alex", "Anthony", 
+			"Jose", "Marissa", "Sidney", "La\'Darius", "Mariah", "Damian", "Juan", "Santiago", "Joseph",
+			"Nicolas", "Octavio", "Whitney", "Leslie", "Brayden", "Paulina", "Aaleayh", "Alison", "Eddy", "Victor", "Jeremy"];
             function myFunction() {
                 var x = Math.floor((Math.random() * 27) + 1);
                 $("#output").html("<p>" + names[x] + "</p>");
